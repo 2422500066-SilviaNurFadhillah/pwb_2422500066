@@ -45,7 +45,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                 <a href="<?= base_url() ?>admin/kategori" class="nav-link active">
+                 <a href="<?= base_url() ?>admin/kategori" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Kategori</p>
                 </a>
@@ -54,6 +54,12 @@
                   <a href="<?= base_url() ?>admin/produk" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Produk</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a href="<?= base_url() ?>admin/kota" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Kota</p>
                 </a>
               </li>
             </ul>
